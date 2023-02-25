@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace firstApi.Repositories.Interfaces
 {
-    public interface IUserRepository
-    {
-        
-    }
+  public interface IUserRepository
+  {
+
+  }
 }

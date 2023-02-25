@@ -12,7 +12,7 @@ namespace firstApi.Controllers
   public class UserController : ControllerBase
   {
     [HttpGet]
-    public ActionResult<List<User>> GetAllUsers()
+    public ActionResult<List<UsersModel>> GetAllUsers()
     {
       return Ok();
     }
