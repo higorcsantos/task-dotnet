@@ -6,12 +6,12 @@ using firstApi.models;
 
 namespace firstApi.Repositories.Interfaces
 {
-  public interface IUserRepository
+  public interface IUsersRepository
   {
     Task<List<UsersModel>> GetAllUsers();
     Task<UsersModel> GetUserById(int id);
     Task<UsersModel> CreateUser(UsersModel user);
-    Task<UsersModel> UpdateUser(UsersModel user);
+    Task<UsersModel> UpdateUser(UsersModel user, int id);
     Task<bool> Delete(int id);
   }
 }
