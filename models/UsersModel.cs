@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace firstApi.models
 {
-  public class User
+  public class UsersModel
   {
     public int Id { get; set; }
     public string Name { get; set; }
